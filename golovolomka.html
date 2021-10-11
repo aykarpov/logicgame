@@ -1,0 +1,31 @@
+﻿<html>
+<head>
+<script src="script.js"></script>
+<TITLE>Головоломка</TITLE>
+	<META http-equiv="Content-Type" content="text/html" charset="utf-8">
+	<META name="keywords" content="головоломка, логическая игра, онлайн, бесплатно">
+	</META>
+</head>
+<body>
+	<FONT face ="Arial">
+	<CENTER>
+	<section id="canva">
+	<canvas id="canv" width=800 height=600>
+		Canvas error!
+	</canvas>
+	</section>
+	<FORM name="controlElts">
+	<SELECT name="winSize" size="1" onchange="winSizeChange(this.selectedIndex)">
+		<OPTION selected>Авторазмер</OPTION>
+		<OPTION>600x400</OPTION>
+		<OPTION>800x600</OPTION>
+		<OPTION>1000x800</OPTION>
+	</SELECT>
+	<INPUT type=checkbox checked onchange="waveOnOff()">Звук</INPUT>
+	</FORM>
+	<A HREF="http://java-developer.ucoz.ru/start">На главную...</A>
+	<HR>
+	<A HREF="mailto:john_head@mail.ru">&#169 Евгений Головин, Москва, 2014 г.</A>
+	</CENTER>
+</body>
+</html>
